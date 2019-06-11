@@ -1,0 +1,15 @@
+{
+  "name": "swift-react",
+  "version": "1.0.0",
+  "description": "React to Swift",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js counter.js Counter.swift"
+  },
+  "keywords": [],
+  "author": "Even Stensberg",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "^0.6.4"
+  }
+}
