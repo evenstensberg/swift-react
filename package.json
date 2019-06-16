@@ -4,12 +4,12 @@
   "description": "React to Swift",
   "main": "index.js",
   "scripts": {
-    "test": "node ./index.js counter.js Counter.swift"
+    "test": "node ./index.js ./example/counter.js ./example/Counter.swift"
   },
   "keywords": [],
   "author": "Even Stensberg",
   "license": "MIT",
   "dependencies": {
-    "jscodeshift": "^0.6.4"
+    "espree": "^5.0.1"
   }
 }

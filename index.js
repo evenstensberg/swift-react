@@ -14,5 +14,4 @@ const swiftPath = path.resolve(process.cwd(), swiftInputFile);
 const reactContents = fs.readFileSync(reactPath, 'utf8');
 const swiftContents = fs.readFileSync(swiftPath, 'utf8');
 
-
-parser(reactContents, 'js');
+parser(reactContents);
