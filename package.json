@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "espree": "^5.0.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "swift-ast-parser": "file:../swift-ast-parser"
   }
 }
